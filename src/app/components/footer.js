@@ -78,6 +78,140 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className='footerBody bg-[#282424]'>
+                    <div className="container mx-auto p-3 py-4">
+                        <div className="flex flex-col md:flex-row justify-between gap-3 pb-3">
+                            <div className=''>
+                                <h6 className='text-[#FFDD00] fw-bold'>Easy Access</h6>
+                                <div className='flex flex-col gap-1 pt-2'>
+                                    <Link href="" className="">
+                                        Home
+                                    </Link>
+                                    <Link href="" className="">
+                                        Sitemap
+                                    </Link>
+                                    <Link href="" className="">
+                                        Recruitments
+                                    </Link>
+                                    <Link href="" className="">
+                                        Right to Information
+                                    </Link>
+                                    <Link href="" className="">
+                                        Feedback
+                                    </Link>
+                                    <Link href="" className="">
+                                        Holidays
+                                    </Link>
+                                    <Link href="" className="">
+                                        Website Policies
+                                    </Link>
+                                    <Link href="" className="">
+                                        Tenders
+                                    </Link>
+                                    <Link href="" className="">
+                                        Performance Dashboard
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <h6 className='text-[#FFDD00] fw-bold'>Dop links</h6>
+                                <div className='flex flex-col gap-1 pt-2'>
+                                    <Link href="" className="">
+                                        Grievance Management
+                                    </Link>
+                                    <Link href="" className="">
+                                        Partner Login
+                                    </Link>
+                                    <Link href="" className="">
+                                        IPPB
+                                    </Link>
+                                    <Link href="" className="">
+                                        Netbanking
+                                    </Link>
+                                    <Link href="" className="">
+                                        Dak Ghar Niyat Portal
+                                    </Link>
+                                    <Link href="" className="">
+                                        Buy Stamps
+                                    </Link>
+                                    <Link href="" className="">
+                                        Other Links
+                                    </Link>
+                                    <Link href="" className="">
+                                        Forms
+                                    </Link>
+                                    <Link href="" className="">
+                                        DOP Mobile Applications
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <h6 className='text-[#FFDD00] fw-bold'>Employee Corner</h6>
+                                <div className='flex flex-col gap-1 pt-2'>
+                                    <Link href="" className="">
+                                        Internal Portal
+                                    </Link>
+                                    <Link href="" className="">
+                                        Self Service Portal
+                                    </Link>
+                                    <Link href="" className="">
+                                        Dak Karmayogi Portal
+                                    </Link>
+                                    <Link href="" className="">
+                                        Circle PTC Website List
+                                    </Link>
+                                    <Link href="" className="">
+                                        Forms
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <h6 className='text-[#FFDD00] fw-bold'>External Links</h6>
+                                <div className='flex flex-col gap-1 pt-2'>
+                                    <Link href="" className="">
+                                        The National Portal of India
+                                    </Link>
+                                    <Link href="" className="">
+                                        National Voters Service Portal
+                                    </Link>
+                                    <Link href="" className="">
+                                        India Code
+                                    </Link>
+                                    <Link href="" className="">
+                                        Application Security Audit Report
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='updatesSection'>
+                                <div className='bg-[#FFFFFF08] p-2 px-3 rounded-md flex flex-col gap-1 items-center justify-center'>
+                                    <svg width="35" height="30" viewBox="0 0 48 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect y="0.40332" width="48" height="32" rx="16" fill="#FDF4F6" fill-opacity="0.2"/>
+                                        <path d="M16.25 11.4033C16.25 8.77997 18.3767 6.65332 21 6.65332C23.6234 6.65332 25.75 8.77997 25.75 11.4033C25.75 14.0267 23.6234 16.1533 21 16.1533C18.3767 16.1533 16.25 14.0267 16.25 11.4033Z" fill="#FAF8E1"/>
+                                        <path d="M13.25 23.4033C13.25 20.2277 15.8244 17.6533 19 17.6533H23C26.1756 17.6533 28.75 20.2277 28.75 23.4033C28.75 24.9221 27.5188 26.1533 26 26.1533H16C14.4812 26.1533 13.25 24.9221 13.25 23.4033Z" fill="#FAF8E1"/>
+                                        <path d="M25.374 15.8677C25.8812 16.0525 26.4288 16.1533 27 16.1533C29.6233 16.1533 31.75 14.0267 31.75 11.4033C31.75 8.77997 29.6233 6.65332 27 6.65332C26.4288 6.65332 25.8812 6.75413 25.374 6.93892C26.5317 8.07332 27.25 9.65443 27.25 11.4033C27.25 13.1522 26.5317 14.7333 25.374 15.8677Z" fill="#FAF8E1"/>
+                                        <path d="M29.24 26.1533H31.9995C33.5183 26.1533 34.7495 24.9221 34.7495 23.4033C34.7495 20.2277 32.1752 17.6533 28.9995 17.6533H27.416C29.1391 18.9787 30.2495 21.0613 30.2495 23.4033C30.2495 24.4521 29.8697 25.4121 29.24 26.1533Z" fill="#FAF8E1"/>
+                                    </svg>
+                                    <p className='text-[#FFDD00] font-semibold text-lg tracking-widest m-0 leading-none mt-2'>472929</p>
+                                    <p className='m-0 font-light'>NO. OF VISITORS</p>
+                                </div>
+                                <div className='bg-[#FFFFFF08] p-2 px-3 rounded-md flex flex-col gap-1 mt-2 items-center justify-center'>
+                                    <p className='m-0 font-light'>Last reviewed and updated on</p>
+                                    <p className='m-0 font-bold'>November 1, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='footer__copyright border-[#91919166] border-t-1 p-4 relative'>
+                            <p className='text-center font-light'>This website belongs to <b className='font-bold'>Department of Posts, Ministry of Communications, GoI.</b> <a href='' className="text-blue-400 hover:underline">Developed by CEPT Copyright Department of Posts</a>.</p>
+                            <p className='text-center font-light mt-2'>Content owned and updated by Department of Posts, Ministry of Communications, Government of India.</p>
+
+                            <div className='footerChat_icon absolute'>
+                                <Image className='cursor-pointer' src="/images/chatIcon.svg" alt='Chat Icon' width={80} height={80} />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
         </>
     );

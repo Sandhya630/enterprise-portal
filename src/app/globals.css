@@ -38,9 +38,13 @@ body {
 
 /* Footer */
 .footerSection{
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   /* background-color: #FEF8E5; */
+}
+.footerChat_icon{
+  top: -2rem;
+  right: -1rem;
 }
 
 
