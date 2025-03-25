@@ -1,5 +1,6 @@
-import Image from 'next/image';
 import TrackandTrace from './trackandtrace';
+import LocatePostOffice from './locatePostOffice';
+import HelplineGrievance from './helplineGrievance';
 
 const HomePage = () => {
     return (
@@ -21,7 +22,13 @@ const HomePage = () => {
                 <section className='postalServices'>
                     <div className='flex-col md:flex-row gap-3'>
                         <div className='w-2/3 md:p-10 p-6'>
-                            {/* <TrackandTrace /> */}
+                            <TrackandTrace />
+                            <div className='mt-2'>
+                                <LocatePostOffice />
+                            </div>
+                            <div className='mt-2'>
+                                <HelplineGrievance />
+                            </div>
                         </div>
                         <div className='w-1/3 p-5'>
 
