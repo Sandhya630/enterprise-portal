@@ -21,7 +21,7 @@ const HomePage = () => {
                 
                 <section className='postalServices'>
                     <div className='flex-col md:flex-row gap-3'>
-                        <div className='w-2/3 md:p-10 p-6'>
+                        <div className='w-2/3 md:p-10 p-5'>
                             <TrackandTrace />
                             <div className='mt-2'>
                                 <LocatePostOffice />
