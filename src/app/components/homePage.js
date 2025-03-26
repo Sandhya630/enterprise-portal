@@ -2,6 +2,8 @@ import TrackandTrace from './trackandtrace';
 import LocatePostOffice from './locatePostOffice';
 import HelplineGrievance from './helplineGrievance';
 import { MinistersCol } from './ministers';
+import { DeliveringEfficiently } from './deliveringEfficiently';
+
 
 const HomePage = () => {
     return (
@@ -35,6 +37,10 @@ const HomePage = () => {
                             <MinistersCol />
                         </div>
                     </div>
+                </section>
+
+                <section className='deliveringFields lg:p-7 p-3 bg-[#F7F7F7]'>
+                    <DeliveringEfficiently />
                 </section>
             </section>
         </>

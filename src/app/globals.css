@@ -72,5 +72,20 @@ body {
   z-index: -1;
   transform: skewX(345deg);
 }
+.homePageSection .postalServices{
+  position: relative;
+  overflow: hidden;
+}
+.homePageSection .postalServices::after{
+  content: '';
+  width: 20rem;
+  height: 20rem;
+  display: block;
+  position: absolute;
+  background: #EC202733;
+  border-radius: 50%;
+  right: -10%;
+  bottom: -30%;
+}
 
 
