@@ -1,6 +1,7 @@
 import TrackandTrace from './trackandtrace';
 import LocatePostOffice from './locatePostOffice';
 import HelplineGrievance from './helplineGrievance';
+import { MinistersCol } from './ministers';
 
 const HomePage = () => {
     return (
@@ -20,8 +21,8 @@ const HomePage = () => {
                 </section>
                 
                 <section className='postalServices'>
-                    <div className='flex-col md:flex-row gap-3'>
-                        <div className='w-2/3 md:p-10 p-5'>
+                    <div className='flex flex-col md:flex-row gap-3'>
+                        <div className='w-2/3 lg:p-7 lg:pr-0 pr-0 p-3'>
                             <TrackandTrace />
                             <div className='mt-2'>
                                 <LocatePostOffice />
@@ -30,8 +31,8 @@ const HomePage = () => {
                                 <HelplineGrievance />
                             </div>
                         </div>
-                        <div className='w-1/3 p-5'>
-
+                        <div className='w-1/3 lg:p-7 p-3'>
+                            <MinistersCol />
                         </div>
                     </div>
                 </section>

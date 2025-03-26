@@ -55,7 +55,7 @@ export default function TrackandTrace () {
                     placeholder="EK123456789IN" value={inputValue} onChange={(e) => setInputValue(e.target.value)}
                     className="border border-[#D6D6D6] text-black rounded-sm p-2 w-full focus:border-[#C62829] focus:outline-none focus:shadow-md focus:shadow-[#E12D2D78]"
                     />
-                    <div className="bg-[#FAFAFA] border border-[#D6D6D6] rounded-sm p-2 flex items-center gap-2 h-[40px]">
+                    <div className="bg-[#FAFAFA] border border-[#D6D6D6] rounded-sm p-2 flex items-center gap-2 w-[200px] h-[40px]">
                         <input type="checkbox" className="" />
                         <span className="whitespace-nowrap font-sm text-black">I'm not a robot</span>
 
@@ -74,7 +74,7 @@ export default function TrackandTrace () {
                             </defs>
                         </svg>
                     </div>
-                    <button className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-red-800 w-1/4 cursor-pointer h-[40px]">Track</button>
+                    <button className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-red-800 w-1/4 cursor-pointer w-[200px] h-[40px]">Track</button>
                 </div>
             </div>
         </>
