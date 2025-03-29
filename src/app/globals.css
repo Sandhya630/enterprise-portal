@@ -88,4 +88,8 @@ body {
   bottom: -30%;
 }
 
-
+/* Quick Updates */
+.updatesList{
+  height: calc(100vh - 25rem);
+  overflow: auto;
+}

@@ -6,19 +6,6 @@ export default function TrackandTrace () {
     const [activeTab, setActiveTab] = useState("consignment");
     const [inputValue, setInputValue] = useState("");
 
-
-      // Define input placeholders based on selected tab
-    // const getPlaceholder = () => {
-    //     switch (activeTab) {
-    //     case "refNo":
-    //         return "Enter Reference Number";
-    //     case "complaintId":
-    //         return "Enter Complaint ID";
-    //     default:
-    //         return "Enter Consignment ID";
-    //     }
-    // };
-
     return (
         <>
             <div className="bg-[#F8F6F6] p-3">

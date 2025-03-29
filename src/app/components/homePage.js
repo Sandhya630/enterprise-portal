@@ -3,6 +3,7 @@ import LocatePostOffice from './locatePostOffice';
 import HelplineGrievance from './helplineGrievance';
 import { MinistersCol } from './ministers';
 import { DeliveringEfficiently } from './deliveringEfficiently';
+import { ServicesSchemes } from './servicesSchemes';
 
 
 const HomePage = () => {
@@ -41,6 +42,10 @@ const HomePage = () => {
 
                 <section className='deliveringFields lg:p-7 p-3 bg-[#F7F7F7]'>
                     <DeliveringEfficiently />
+                </section>
+
+                <section className='servicesSchemes lg:p-7 p-3'>
+                    <ServicesSchemes />
                 </section>
             </section>
         </>
