@@ -4,6 +4,7 @@ import HelplineGrievance from './helplineGrievance';
 import { MinistersCol } from './ministers';
 import { DeliveringEfficiently } from './deliveringEfficiently';
 import { ServicesSchemes } from './servicesSchemes';
+import { EpostOffice } from './epostOffice';
 
 
 const HomePage = () => {
@@ -46,6 +47,10 @@ const HomePage = () => {
 
                 <section className='servicesSchemes lg:p-7 p-3'>
                     <ServicesSchemes />
+                </section>
+
+                <section className='epostOffice lg:p-7 p-3 bg-[#F7F7F7]'>
+                    <EpostOffice />
                 </section>
             </section>
         </>
